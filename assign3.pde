@@ -132,13 +132,6 @@ void draw() {
     }
     /* ------ End of Debug Function ------ */
     
-    if(cameraOffsetY<-1600){
-      cameraOffsetY=-1600;
-    }
-    if(cameraOffsetY>0){
-      cameraOffsetY=0;
-    }
-    
     if(moveY > -1600){
       moveY=soilSize-groundhogY;//a changing number(since the groundhogY is changing)
     }
