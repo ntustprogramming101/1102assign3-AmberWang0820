@@ -356,7 +356,9 @@ void draw() {
       if (mousePressed) {
         gameState = GAME_RUN;
         playerHealth = 2;
-
+        
+        moveY=0;
+        
         groundhogX=320.0;
         groundhogY=80.0;
         hogState=HOG_IDLE;
